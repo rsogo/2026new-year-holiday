@@ -1,0 +1,27 @@
+{
+  "name": "slidev-boilerplate",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "format": "prettier --write .",
+    "lint": "textlint '**/*.md'"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0-beta.6",
+    "slidev-theme-ncdc": "github:ncdcdev/slidev-theme-ncdc",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-slidev": "^1.0.5",
+    "textlint": "^14.3.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-aws-service-name": "^1.11.0",
+    "textlint-rule-period-in-list-item": "^1.0.1",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^10.0.1"
+  }
+}
